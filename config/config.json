@@ -1,7 +1,12 @@
 {
-  "host": "localhost",
-  "user": "sa",
-  "password": "a!12345",
-  "port": 1466,
-  "database": "testBoard"
+  "server": "localhost",
+  "user": "JINHAK\\rlaaltjd46",
+  "password": "a!123456",
+  "port": 1433,
+  "database": "testBoard",
+  "pool": {
+    "max": 10,
+    "min": 0,
+    "idleTimeoutMillis": 3000
+  }
 }
